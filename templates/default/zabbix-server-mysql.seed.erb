@@ -1,0 +1,6 @@
+zabbix-server-mysql zabbix-server-mysql/dbconfig-install boolean true
+zabbix-server-mysql zabbix-server-mysql/database-type select mysql
+zabbix-server-mysql zabbix-server-mysql/mysql/app-pass password <%= node['zabbix']['server']['db_password'] %>
+zabbix-server-mysql zabbix-server-mysql/app-password-confirm password <%= node['zabbix']['server']['db_password'] %>
+zabbix-server-mysql zabbix-server-mysql/mysql/admin-pass password <%= node['mysql']['server_root_password'] %>
+zabbix-server-mysql zabbix-server-mysql/password-confirm password <%= node['mysql']['server_root_password'] %>

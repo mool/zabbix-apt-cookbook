@@ -1,0 +1,14 @@
+PidFile=/var/run/zabbix/zabbix_server.pid
+LogFile=<%= node['zabbix']['log_dir'] %>/zabbix_server.log
+LogFileSize=0
+DBHost=localhost
+DBName=zabbix
+DBUser=zabbix
+DBPassword=<%= node['zabbix']['server']['db_password'] %>
+DBSocket=/var/run/mysqld/mysqld.sock
+JavaGateway=localhost
+StartJavaPollers=10
+AlertScriptsPath=/usr/lib/zabbix/alertscripts
+ExternalScripts=/usr/lib/zabbix/externalscripts
+FpingLocation=/usr/bin/fping
+Fping6Location=/usr/bin/fping6

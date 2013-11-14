@@ -1,0 +1,8 @@
+PidFile=/var/run/zabbix/zabbix_agentd.pid
+LogFile=<%= node['zabbix']['log_dir'] %>/zabbix_agentd.log
+LogFileSize=0
+DebugLevel=3
+Hostname=<%= node['fqdn'] %>
+Server=<%= node['zabbix']['agent']['servers'].join(',') %>
+ServerActive=<%= node['zabbix']['agent']['servers'].join(',') %>
+Include=<%= node['zabbix']['agent']['include_conf_dir'] %>
