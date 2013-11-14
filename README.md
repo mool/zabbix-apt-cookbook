@@ -30,6 +30,7 @@ To install Zabbix server just add `recipe[zabbix]` and
 * `['zabbix']['server']['db_password']` - Zabbix database password
 
 Also you have to set:
+
 * `['mysql']['server_root_password']`
 * `['mysql']['server_debian_password']`
 * `['mysql']['server_repl_password']`
