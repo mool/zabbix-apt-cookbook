@@ -29,6 +29,11 @@ To install Zabbix server just add `recipe[zabbix]` and
   config directory, by default "/etc/zabbix/zabbix_agentd.d" 
 * `['zabbix']['server']['db_password']` - Zabbix database password
 
+Also you have to set:
+* `['mysql']['server_root_password']`
+* `['mysql']['server_debian_password']`
+* `['mysql']['server_repl_password']`
+
 # Recipes
 
 * default.rb - Adds Zabbix official repository and calls agent.rb
