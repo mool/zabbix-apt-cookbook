@@ -44,4 +44,4 @@ Also you have to set:
 
 # Author
 
-Author:: Pablo Gutierrez del Castillo (<pablo.gutierrez@sitrack.com>)
+Author:: Pablo Gutierrez del Castillo (<pablogutierrezdelc@gmail.com>)

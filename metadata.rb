@@ -1,6 +1,6 @@
 name             'zabbix-apt'
 maintainer       'Pablo Gutierrez del Castillo'
-maintainer_email 'pablo.gutierrez@sitrack.com'
+maintainer_email 'pablogutierrezdelc@gmail.com'
 license          'MIT'
 description      'Installs/Configures zabbix via apt'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
